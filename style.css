@@ -1,0 +1,85 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom right, rgb(100, 3, 109), rgb(255, 80, 89));
+}
+
+.success {
+    background-image: url("./footer.png");
+    background-position: center;
+}
+
+.success .jumbotron {
+    width: auto !important;
+    background-image: linear-gradient(to top left, rgb(100, 3, 109, 0.7), rgb(255, 80, 89, 0.7));
+}
+
+.flexer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.jumbotron {
+    width: 50% !important;
+    /* background-image: linear-gradient(to top left, rgb(100, 3, 109, 0.7), rgb(255, 80, 89, 0.7)); */
+    background-color: rgba(109, 3, 8, 0.3);
+    color: white;
+    padding: 45px 60px !important;
+    border-radius: 30px;
+}
+
+input {
+    border-radius: 50px !important;
+    padding: 25px 20px !important;
+}
+
+.alert {
+    border-radius: 50px !important;
+}
+
+.btn {
+    min-height: 38px;
+    height: auto;
+    width: auto;
+    border-radius: 50px;
+    margin: 18px;
+    padding: 0 30px;
+    line-height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    transition-duration: 0.4s !important;
+    font-size: 1.2em;
+    font-weight: bold;
+
+    border: 3px solid white;
+    background-color: rgb(100, 3, 109);
+    color: white;
+}
+
+.btn:hover {
+    cursor: pointer;
+    transform: translateY(-15px);
+    transform: scale(1.1);
+
+    border: 3px solid white;
+    background-color: white;
+    color: rgb(100, 3, 109);
+}
+
+.btn-login {
+    background-color: rgb(247, 48, 65);
+}
+
+.btn-login:hover {
+    color: rgb(247, 48, 65);
+}
