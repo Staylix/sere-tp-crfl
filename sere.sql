@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3307
--- Généré le :  mar. 02 avr. 2019 à 12:33
+-- Généré le :  mar. 02 avr. 2019 à 12:46
 -- Version du serveur :  10.3.12-MariaDB
 -- Version de PHP :  7.2.14
 
@@ -21,6 +21,8 @@ SET time_zone = "+00:00";
 --
 -- Base de données :  `sere`
 --
+CREATE DATABASE IF NOT EXISTS `sere` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `sere`;
 
 -- --------------------------------------------------------
 
